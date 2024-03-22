@@ -1,0 +1,19 @@
+#button{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.statement{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 43px;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
