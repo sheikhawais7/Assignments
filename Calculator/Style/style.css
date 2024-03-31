@@ -1,0 +1,40 @@
+
+.statement{
+    height: 100px;
+}
+.clear{
+    border: 0;
+    width: 10.350%;
+    height: 60px;
+}
+/* .number2{
+    border: 0;
+    width: 5%;
+    height: 120px;
+    background-color: #023047;
+} */
+button{
+    width: 100%;
+    border: 0;
+    height: 60px;
+    background-color: #023047;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+.calculator{
+    width: 20%;
+    margin: auto;
+}
+#output{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px;
+}
