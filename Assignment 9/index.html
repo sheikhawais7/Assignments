@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JS Assignment 3</title>
+  <title>JS Assignment 9</title>
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="Style/style.css" />
   <!-- BOOTSTRAP CSS -->
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Chapter 15 - 20</a>
+              <a class="nav-link active" aria-current="page" href="#">Chapter 69 - 75</a>
             </li>
           </ul>
           <form class="d-flex " role="search">
@@ -32,17 +32,17 @@
             <button class="btn btn-outline-primary" type="submit">Search</button>
           </form>
         </div>
-      </div>
     </nav>
     <div class="container">
       <div class="row">
         <div class="col">
-          <h4 class="text-center mt-3">Chapter # 15 - 20 | Arrays: It's Methods & for loops</h4>
+          <h4 class="text-center mt-3">Chapter # 69 - 75 | Objects, Propertics, Methods, Constructors, and Prototyes
+          </h4>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <hr class="m-auto mt-3">
+          <hr class="m-auto mt-1">
         </div>
       </div>
     </div>
@@ -52,21 +52,25 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col-12 col-md-6">
-          <h4 class="text-center">Input</h4>
-          <div class="statement1 p-3">
-            <div class="input-group mb-2 mt-2 ms-2">
-              <div class="form-floating">
-                <input type="text" class="p-2" style="width: 100%;" id="inputText" placeholder="Type your text here">
-              </div>
-              <button class="btn btn-outline-secondary me-3" onclick="clearInput()">Clear</button>
+          <h4 class="text-center">Buttons</h4>
+          <div class="statement">
+            <div class="button d-flex justify-content-center flex-wrap p-3 mt-1">
+              <button class="btn btn-danger mb-2" style="width: 48%;" onclick="showImageBtn()">Show Image</button> 
+              <button class="btn btn-danger mb-2" style="width: 48%;" onclick="showTableBtn()">Show Table</button> 
+              <button class="btn btn-danger" style="width: 48%;" onclick="printUsersBtn()">Print Users in Console</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <h4 class="text-center">Original String</h4>
-          <div class="statement2" id="statement">
-            <p class="text-white text-center mt-1" style="font-size: 15px;">1) Faisalabad 2)Lahore 3) Islamabad 4)Karachi 5)Burewala 6) Sheikhupura 7)
-              Kashmir</p>
+          <h4 class="text-center">Form</h4>
+          <div class="statement text-center" id="statement">
+            <form class="d-flex flex-wrap p-3 mt-2" onsubmit="handleSubmit()">
+              <input type="text" class="form-control mb-2 me-auto" style="width: 48%;" id="firstName" placeholder="First Name">
+              <input type="text" class="form-control mb-2 me-2" style="width: 48%;" id="lastName" placeholder="Last Name">
+              <input type="email" class="form-control me-auto" style="width: 48%;" id="email" placeholder="Email">
+              <input type="date" class="form-control me-2" style="width: 48%;" id="dob">
+              <button class="btn btn-success mx-auto mt-2" style="width: 48%;">Add User</button>
+            </form>
           </div>
         </div>
       </div>
@@ -74,23 +78,11 @@
     <!-- STAGE 2 -->
     <div class="container mt-3">
       <div class="row">
-        <div class="col-12 col-md-6">
-          <h4 class="text-center">Buttons</h4>
-          <div class="statement3">
-            <div class="button d-flex justify-content-center flex-wrap p-3">
-              <button class="btn btn-danger mb-2" style="width: 48%;" onclick="simpleAlert()">Simple Alert</button>
-              <button class="btn btn-danger mb-2 ms-2" style="width: 48%;" onclick="printName()">Print My Name</button>
-              <button class="btn btn-danger mb-2" style="width: 48%;" onclick="printCities()">Print All Cities</button>
-              <button class="btn btn-danger mb-2 ms-2" style="width: 48%;" onclick="addCity()">Add Your City In List</button>
-              <button class="btn btn-danger" style="width: 48%;" onclick="generateTable()">Generate Table</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" style="width: 100%;">
           <h4 class="text-center">Output / Result</h4>
-          <div class="statement3 p-3" id="output"></div>
+          <div class="statement2 text-center p-3" id="output" onclick="showOutput()"></div>
           <div class="d-flex justify-content-center mt-3">
-            <button class="btn btn-outline-secondary text-center" onclick="clearOutput()">Clear Output</button>
+            <button class="btn btn-outline-secondary text-center mb-2" onclick="clearOutput()">Clear Output</button>
           </div>
         </div>
       </div>

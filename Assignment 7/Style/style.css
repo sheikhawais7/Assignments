@@ -11,15 +11,14 @@
 .statement2{
     border: 1px solid;
     width: 100%;
-    /* min-height: 100px; */
     border-radius: 10px;
     background-color: #003049;
-    padding: 13px;
+    padding: 33px;
 } 
 .statement3{
     border: 1px solid;
     width: 100% ;
-    min-height: 168px;
+    min-height: 251px;
     border-radius: 10px;
 }
 body{
