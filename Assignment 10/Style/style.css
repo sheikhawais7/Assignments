@@ -1,0 +1,16 @@
+#button{
+    border: 1px solid;
+    min-height: 80px;
+}
+.statement{
+    border: 1px solid;
+    min-height: 50px ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
