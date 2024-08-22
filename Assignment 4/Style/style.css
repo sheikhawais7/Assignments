@@ -1,4 +1,3 @@
-
 .statement{
     height: 100px;
 }
@@ -27,14 +26,58 @@ body{
 main{
     flex: 1 0 auto;
 }
-.calculator{
-    width: 20%;
-    margin: auto;
-}
 #output{
     width: 100%;
     display: flex;
     justify-content: end;
     align-items: end;
     padding: 10px;
+}
+.calculator{
+    width: 25%;
+}
+@media screen and (max-width:1200px){
+    .calculator{
+        width: 30%;
+    }
+}
+@media screen and (max-width:991px){
+    .calculator{
+        width: 35%;
+    }
+}
+@media screen and (max-width:900px){
+    .calculator{
+        width: 40%;
+    }
+}
+@media screen and (max-width:800px){
+    .calculator{
+        width: 45%;
+    }
+}
+@media screen and (max-width:700px){
+    .calculator{
+        width: 55%;
+    }
+}
+@media screen and (max-width:600px){
+    .calculator{
+        width: 60%;
+    }
+}
+@media screen and (max-width:550px){
+    .calculator{
+        width: 65%;
+    }
+}
+@media screen and (max-width:500px){
+    .calculator{
+        width: 70%;
+    }
+}
+@media screen and (max-width:450px){
+    .calculator{
+        width: 75%;
+    }
 }
